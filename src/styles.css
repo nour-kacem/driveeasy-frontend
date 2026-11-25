@@ -1,0 +1,74 @@
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary-color: #0f172a;
+  --accent-color: #f59e0b;
+  --bg-color: #f8fafc;
+  --card-bg: #ffffff;
+  --border-color: #e2e8f0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: #334155;
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.card {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+.badge-disponible {
+  background-color: #10b981;
+  color: white;
+}
+
+.badge-loue {
+  background-color: #ef4444;
+  color: white;
+}
+
+.badge-maintenance {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.badge-fidele {
+  background-color: #8b5cf6;
+  color: white;
+}
+
+.badge-vip {
+  background-color: #ec4899;
+  color: white;
+}
+
+.badge-standard {
+  background-color: #64748b;
+  color: white;
+}
